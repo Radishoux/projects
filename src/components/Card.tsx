@@ -6,7 +6,7 @@ import CardActions from '@mui/material/CardActions';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
+import RudyFace from 'media/rudyFace.png'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { Link } from '@mui/material';
 
@@ -33,9 +33,7 @@ export default function RudyCard(
     >
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
-          </Avatar>
+          <Avatar alt="Remy Sharp" src={RudyFace}/>
         }
         title={cardTitle}
         subheader={editDate}
