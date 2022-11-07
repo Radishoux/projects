@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/projects/static/css/main.8645afcf.css",
+    "main.css": "/projects/static/css/main.697d827e.css",
     "main.js": "/projects/static/js/main.e880e03f.js",
     "static/media/rudyFolioScreen.png": "/projects/static/media/rudyFolioScreen.229aaa84449295ed3a6f.png",
     "static/media/rudyFace.png": "/projects/static/media/rudyFace.3fc1375001a270ea417d.png",
     "index.html": "/projects/index.html",
     "static/media/logo.svg": "/projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "main.8645afcf.css.map": "/projects/static/css/main.8645afcf.css.map",
+    "main.697d827e.css.map": "/projects/static/css/main.697d827e.css.map",
     "main.e880e03f.js.map": "/projects/static/js/main.e880e03f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8645afcf.css",
+    "static/css/main.697d827e.css",
     "static/js/main.e880e03f.js"
   ]
 }
