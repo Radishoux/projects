@@ -31,6 +31,7 @@ export default function RudyCard(
       '& > *': { minWidth: 'clamp(0px, (360px - 100%) * 999,100%)' },
     })}
     >
+    <Link href={cardLink}>
       <CardHeader
         avatar={
           <Avatar alt="Remy Sharp" src={RudyFace}/>
@@ -38,14 +39,12 @@ export default function RudyCard(
         title={cardTitle}
         subheader={editDate}
       />
-      <Link href={cardLink}>
         <CardMedia
           component="img"
           height="150"
           image={cardImage}
           alt="Paella dish"
           />
-      </Link>
       <CardContent>
         <Typography variant="body2" color="text.secondary">
           {cardDescription}
@@ -56,6 +55,7 @@ export default function RudyCard(
           <FavoriteIcon />
         </IconButton>
       </CardActions>
+    </Link>
     </Card>
   );
 }
