@@ -18,7 +18,7 @@ function Body() {
             editDate={"december 2022"}
             cardImage={pyraLogo}
             cardLink={""}
-            cardDescription={"A study on the ponzi scheme and how would nowadays society use it"}/>
+            cardDescription={"A study on the ponzi scheme and how would nowaday's society use it"}/>
 {/*
             <RudyCard
             cardTitle={"About me"}
